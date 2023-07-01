@@ -1,0 +1,39 @@
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem;
+    margin-top: 4rem;
+}
+.letrafina {
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+    font-size: 3.8rem;
+}
+.letragruesa {
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+}
+.parrafo{
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    width: 35vw;
+    font-size: 1.5rem;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+
+}
+.cont1, .cont2, .cont3, .cont4 {
+    margin: 1.5rem;
+    width: 21vw;
+}
+.cont1 {
+    align-self: center;
+}
+.cont4 {
+    align-self: center;
+}

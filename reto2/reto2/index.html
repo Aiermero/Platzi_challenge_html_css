@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <title></title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      background-color: hsl(210, 46%, 95%);
+      display: grid;
+      place-items: center;
+    }
+    .contenedor { 
+      background-color: hsl(0, 0%, 100%);
+      width: 50vw;
+      height: 40vh;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.123);
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+    .imagen {
+      height: 100%;
+      width: 40%;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    .contenedor-texto {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 60%;
+    }
+    .encabezado {
+      margin: 7%;
+      margin-bottom: 3%;
+      font-size: 1.3em;
+      height: 33%;
+      color: hsl(217, 19%, 35%);
+      font-family: 'Manrope', sans-serif;
+      box-sizing: border-box;
+    }
+    .descripcion {
+      height: 33%;
+      margin: 7%;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.8em;
+      color: hsl(214, 17%, 51%);
+    }
+    .contenedor-informacion{
+      height: 33%;
+      margin-left: 7%;
+      margin-right: 7%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .pie {
+      display: flex;
+      height: 100%;
+      width: 50%;
+    }
+    .foto-perfil {
+      border-radius: 100%;
+      height: 2.5em;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10%;
+    }
+    .nombre {
+      color: hsl(217, 19%, 35%);
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      font-size: 0.8em;
+    }
+    .fecha {
+      margin: 0;
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.8em;
+      color: hsl(212, 23%, 69%);
+    }
+    .compartir{
+      background-color: hsl(210, 46%, 95%);
+      border-radius: 100%;
+      padding: 0.5em;
+      width: 1em;
+      height: 1em;
+    }
+  </style>
+</head>
+<body>
+<div class="contenedor">
+  <img class="imagen" src="./images/drawers.jpg"/>
+  <div class="contenedor-texto">
+    <h1 class="encabezado">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+
+    <p class="descripcion">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+    <div class="contenedor-informacion">
+      <div class="pie">  
+        <img class="foto-perfil" src="./images/avatar-michelle.jpg" alt="foto">
+        <div class="info">
+          <h2 class="nombre">Michelle Appleton</h2>
+          <p class="fecha">28 Jun 2020</p>
+      </div >
+    </div>
+    <div class="compartir">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
